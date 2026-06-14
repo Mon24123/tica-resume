@@ -116,7 +116,7 @@
     }
 
     .hero {
-      padding: 54px 0 30px;
+      padding: 40px 0 26px;
       display: grid;
       grid-template-columns: minmax(0, 1.15fr) 360px;
       gap: 28px;
@@ -124,7 +124,7 @@
     }
 
     .hero-main {
-      padding: 34px;
+      padding: 30px;
       border: 1px solid var(--line);
       border-radius: 18px;
       background: rgba(255, 255, 255, 0.86);
@@ -145,9 +145,9 @@
     }
 
     h1 {
-      margin: 18px 0 12px;
-      font-size: clamp(34px, 5vw, 58px);
-      line-height: 1.05;
+      margin: 18px 0 10px;
+      font-size: clamp(34px, 4.2vw, 46px);
+      line-height: 1.12;
       letter-spacing: 0;
       color: var(--tica-dark);
     }
@@ -156,14 +156,39 @@
       max-width: 780px;
       margin: 0;
       color: var(--muted);
-      font-size: 20px;
+      font-size: 18px;
+    }
+
+    .hero-proof {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .proof-chip {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 12px;
+      color: var(--tica-dark);
+      background: #fff8ed;
+      border: 1px solid #f7d6a7;
+      font-weight: 760;
+    }
+
+    .proof-chip strong {
+      color: var(--accent);
+      font-size: 22px;
+      line-height: 1;
     }
 
     .target-row {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
-      margin-top: 22px;
+      margin-top: 18px;
     }
 
     .target {
@@ -189,7 +214,7 @@
 
     .hero-card {
       border-radius: 18px;
-      padding: 26px;
+      padding: 24px;
       color: #fff;
       background: linear-gradient(155deg, var(--tica-dark), var(--tica) 58%, var(--good));
       box-shadow: var(--shadow);
@@ -542,6 +567,10 @@
         <p class="hero-subtitle">
           自动化技术与应用本科，申请天加未来工程师暑期研习营。想优先了解「研发管培生（解决方案方向）」和「销服管培生（国内销售 / 技术 / 服务）」两个方向。
         </p>
+        <div class="hero-proof" aria-label="关键成果">
+          <span class="proof-chip"><strong>70W+</strong>用户运营累计 GMV</span>
+          <span class="proof-chip"><strong>180</strong>名付费用户转化</span>
+        </div>
         <div class="target-row" aria-label="投递方向">
           <span class="target">研发管培生（解决方案方向）</span>
           <span class="target">销服管培生（国内销售 / 技术 / 服务）</span>
